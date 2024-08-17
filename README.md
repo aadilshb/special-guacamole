@@ -1,15 +1,16 @@
 # special-guacamole
 Object Detection and Notification System
-Overview
+---------------------------------------------------------------------------------------------------------
+Overview:
 The Object Detection and Notification System is a surveillance application that uses a pre-trained TensorFlow object detection model to identify objects in real-time from a webcam feed. When a specific object (e.g., a person) is detected, the system sends a WhatsApp message via a FastAPI server every 10 seconds.
 
-Features
+Features:
 Real-time object detection using TensorFlow's SSD MobileNet model.
 Sends a WhatsApp message through FastAPI when objects are detected.
 Message dispatches are limited to every 10 seconds for each detected object.
 Uses OpenCV for video capture and display.
 
-Requirements
+Requirements:
 Python 3.7 or higher
 TensorFlow 2.x
 OpenCV
@@ -56,3 +57,7 @@ Access Token: Replace the placeholder access token in the script with your actua
 Webcam: Ensure the webcam is properly connected and accessible for object detection.
 Additional Notes:
 Keep any API keys or tokens confidential and secure.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+In the provided codes, the object_detection_app.py file contains the main code and email logic.
+The mini_proj.py file contains the logic for FastApi Whatsapp message sending.
