@@ -11,7 +11,7 @@ Message dispatches are limited to every 10 seconds for each detected object.
 Uses OpenCV for video capture and display.
 
 Requirements:
-Python 3.7 or higher
+Python 
 TensorFlow 2.x
 OpenCV
 Requests
