@@ -16,3 +16,43 @@ OpenCV
 Requests
 FastAPI
 Object Detection API (TensorFlow models and label maps)
+------------------------------------------------------------------------------------------------------------------
+Project Environment Requirements
+--------------------------------------
+Operating System:
+Windows 10/11, Linux, or macOS
+Python Version
+Python 3.x (e.g., Python 3.8)
+Python Packages
+opencv-python
+numpy
+tensorflow
+requests
+object-detection (if using a specific package for object detection utilities)
+
+Installation Instructions:
+Navigate to the Project Directory:
+Change into the project directory where the code is located.
+
+Set Up a Virtual Environment (Optional but Recommended):
+Create and activate a virtual environment to manage dependencies.
+
+Install Required Packages:
+Use pip to install the required Python packages.
+
+Model and Label Map Files
+Model Path: Download the pre-trained model and place it in the specified directory.
+Label Map Path: Download the label map file and place it in the specified directory.
+
+Running the Project:
+Start the FastAPI Server:
+Run the FastAPI server to handle WhatsApp messaging requests.
+
+Run the Object Detection Script:
+Execute the object detection script to start detecting objects and sending messages.
+
+Configuration:
+Access Token: Replace the placeholder access token in the script with your actual access token.
+Webcam: Ensure the webcam is properly connected and accessible for object detection.
+Additional Notes:
+Keep any API keys or tokens confidential and secure.
